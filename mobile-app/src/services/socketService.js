@@ -9,7 +9,7 @@ import { useAuthStore } from '../store/authStore';
 class SocketService {
   constructor() {
     this.socket = null;
-    this.serverUrl = 'http://localhost:3000'; // Production'da değiştirilecek
+this.serverUrl = 'https://livechat-pro-hvvu.onrender.com';
     this.isConnected = false;
     this.reconnectAttempts = 0;
     this.maxReconnectAttempts = 10;
